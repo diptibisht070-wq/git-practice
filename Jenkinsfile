@@ -3,7 +3,7 @@ pipeline {
     stages {
       stage('Run Python') {
         steps {
-          bat 'python hello.py'
+          bat 'C:\Users\asus\AppData\Local\Programs\Python\Python314\python.exe'
         }
     }
   }
